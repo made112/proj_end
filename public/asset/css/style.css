@@ -1,0 +1,242 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+
+/* .mainBody,
+html {
+    height: 100%;
+} */
+
+body {
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+
+/* .container {
+    background-image: url('images.png');
+    background-repeat: no-repeat;
+    background-attachment: cover;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+} */
+
+nav {
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+
+/* .mainBody {
+    background-position: center;
+    background-color: rgb(22, 20, 20);
+    margin: 0% 9.5%;
+    border: white solid 5px;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0 5%;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+li a:hover {
+    background-color: rgba(8, 167, 216);
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+
+/* li a:hover {
+    color: black;
+    background-color: orange;
+    border-radius: 7px;
+} */
+
+body nav ul li a {
+    font-family: 'El Messiri', sans-serif;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+}
+
+#blue {
+    background-color: rgb(8, 167, 216);
+    display: inline;
+    font-size: 50px;
+    border-radius: 25px;
+    padding: 0 20px;
+}
+
+#block {
+    background-color: rgba(0, 0, 0, 0.603);
+    margin: 20px 0px 0px 0px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+    display: block;
+}
+
+form label {
+    display: inline;
+    font-family: 'El Messiri', sans-serif;
+    margin-left: 30px;
+    color: rgb(14, 27, 100);
+    font-size: 20px;
+}
+
+form input {
+    border-radius: 10px;
+    color: black;
+    border: 2px solid rgb(14, 27, 100);
+}
+
+div option {
+    font-size: 15px;
+}
+
+.Body {
+    background-color: rgba(12, 11, 11, 0.911);
+    color: white;
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    margin-bottom: 5%;
+    font-weight: bold;
+    background-color: rgb(13, 114, 230);
+    background-color: rgb(14, 27, 100);
+}
+
+.form-control {
+    border: 2px solid rgb(14, 27, 100);
+}
+
+form div {
+    display: inline-block;
+    margin: 30px;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgb(185, 138, 10);
+    border: 2px solid rgb(14, 27, 100);
+}
+
+#participate {
+    font-size: 50px;
+    margin: 30px 0px;
+}
+
+.gallery {
+    margin-left: 0%;
+}
+
+.gallery_button {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 30px;
+}
+
+.gallery_button button {
+    background-color: rgb(14, 27, 100);
+    padding: 30px;
+    box-sizing: content-box;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+}
+
+.gallery_button button:hover {
+    /* background-color: rgb(182, 185, 10); */
+    background-color: rgb(185, 138, 10);
+}
+
+pre {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 20px;
+}
+
+.gallery_filters {
+    margin: 30px;
+    display: inline-flex;
+    margin-left: 50%;
+}
+
+.gallery_filters button {
+    color: blue;
+    margin-right: 20px;
+    height: 33px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.sharing_info {
+    display: block;
+    font-size: 10px;
+    text-align: right;
+    margin-top: 50%;
+    padding-top: 30px;
+    height: auto;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* .sharing_info * {
+    display: inline-block;
+    font-size: 10px;
+    text-align: right;
+    height: 15px;
+    margin: 0%;
+    background-color: blue;
+} */
+
+.gallery_option {
+    margin: 50px;
+    background-color: rgb(14, 27, 100);
+    border-radius: 10px;
+    text-align: right;
+}
+
+.gallery_option img {
+    border-radius: 5px;
+}
+
+.gallery_option:hover {
+    background-color: rgb(155, 116, 11);
+    border: 3px solid rgb(128, 41, 25);
+}
+
+.student_info {
+    margin-right: 5px;
+}
+
+.student_name {
+    display: block;
+}
+
+.vote_average {
+    display: block;
+}
